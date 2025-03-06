@@ -6,7 +6,7 @@ import time
 reddit = praw.Reddit(
     client_id="",
     client_secret="",
-    user_agent="subScraper by /u/Positive_Lunch",
+    user_agent="subScraper",
 )
 
 def search_subreddit(subreddit_name, query, filename, limit=100, commentLimit=10, logTime=5):
@@ -66,6 +66,6 @@ numCommentsPerPost=10
 search_query = "c++"
 
 if __name__ == "__main__":
-    subreddit_name = "programare"
+    subreddit_name = "funny"
     output_file = subreddit_name +".txt"
     search_subreddit(subreddit_name, search_query, output_file, numPosts, numCommentsPerPost)

@@ -6,7 +6,7 @@ import time
 reddit = praw.Reddit(
     client_id="",
     client_secret="",
-    user_agent="subScraper by /u/Positive_Lunch",
+    user_agent="subScraper",
 )
 
 def parse_subreddit(subreddit_name, filename, limit=100, commentLimit=10, logTime=5):
@@ -61,6 +61,6 @@ numPosts=100
 numCommentsPerPost=10
 
 if __name__ == "__main__":
-    subreddit_name = "programare"
+    subreddit_name = "funny"
     output_file = subreddit_name +".txt"
     parse_subreddit(subreddit_name, output_file, numPosts, numCommentsPerPost)
