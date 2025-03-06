@@ -1,21 +1,6 @@
-Bin	
-WR1	
-WHS FLOOR	
-WALK IN FREEZER
-LABEL RACK
-G9-TR	
-G9-TL	
-G9-MR	
-G9-ML	
-G9-BR	
-G9-BL	
-G8-TR	
-G8-TL	
-G8-MR	
-G8-ML	
-G8-BR	
-G8-BL	
-G7-TR	
-G7-TL	
-G7-MR	
-G7-ML
+Warehouse
+Lab1
+Lab2
+Room-XY
+Room-ABC
+Storage
