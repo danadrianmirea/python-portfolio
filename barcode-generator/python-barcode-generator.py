@@ -3,6 +3,8 @@ from barcode.writer import ImageWriter
 from fpdf import FPDF
 import os
 
+os.chdir(os.path.dirname(__file__))
+
 # Read data from file
 with open("barcode_input.txt", "r") as file:
     data = file.read().splitlines()
